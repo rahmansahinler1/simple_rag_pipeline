@@ -24,17 +24,17 @@ For this work both a local llm (llama2:7b) and an open ai model (gpt-3.5-turbo-0
 # Why locally?
 
 - Private Data: You can enable to use your private data without uploading it to the internet.
-- Cost: Cost will be dramatically be less if you use llm's locally on a large project.
-- Speed: If you have good hardware system, you don't need to establish extra steps. You can just your own system.
+- Cost: Cost will be dramatically less if you use llm's locally on a large project.
+- Speed: If you have good hardware system, you don't need to establish extra steps. You can just use your own system.
 
 # Quick Start - Environment
 
 For this work WSL environment is used.
-I highly suggest using linux environment for AI related works for compability.
-Following steps needs to be followed to establish the same environment:
+I highly suggest using linux environment for AI related works for preventing compability issues.
+Following steps needs to be taken to establish the same environment:
 
 - WSL2 Installation (Microsoft store, ubuntu 22.04)
-- WSL2 is a must. (You can check wsl version with powershell and this command: wsl -l -v, If you have WSL1 as default you can change it with following instructions on this link: https://learn.microsoft.com/en-us/windows/wsl/install-manual#step-4---download-the-linux-kernel-update-package, then you need to upgrade your installed version with this code: wsl --set-version <your ubuntu version> 2)
+- WSL2 is a must. (You can check wsl version with powershell and this command: "wsl -l -v", if you have WSL1 as default you can change it with following instructions on this link: https://learn.microsoft.com/en-us/windows/wsl/install-manual#step-4---download-the-linux-kernel-update-package, then you need to upgrade your installed version with this code: wsl --set-version <your ubuntu version> 2)
 - OLLAMA (https://ollama.com/download/linux)
 - LLAMA2:7B (use this command: ollama pull llama2:7b)
 - CUDA (A gpu > gtx 1650, if you've never used cuda follow this steps: https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&Distribution=WSL-Ubuntu&target_version=2.0&target_type=runfile_local, you can track down you gpu activitiy with following command on terminal: watch -n 1 nvidia-smi)
