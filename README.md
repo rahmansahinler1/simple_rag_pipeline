@@ -27,6 +27,10 @@ For this work both a local llm (llama2:7b) and an open ai model (gpt-3.5-turbo-0
 - Cost: Cost will be dramatically less if you use llm's locally on a large project.
 - Speed: If you have good hardware system, you don't need to establish extra steps. You can just use your own system.
 
+# Workflow
+
+![rag_pipeline](https://github.com/rahmansahinler1/simple_rag_pipeline/assets/102040290/63941dc9-5f1b-4ef9-9a47-06d28b4ca5df)
+
 # Quick Start - Environment
 
 For this work WSL environment is used.
