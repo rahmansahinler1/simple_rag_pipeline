@@ -1,4 +1,4 @@
-# What is RAG pipeline?
+# simple_rag_pipeline
 
 "RAG" stands for Retrieval Augmented Generation. A base LLM model is trained on large open source data and it performs poorly on a given specific domain.
 We can generate general question answers with them, but interacting a base model with condifential data is not possible.
