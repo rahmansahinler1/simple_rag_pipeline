@@ -39,7 +39,11 @@ Following steps needs to be followed to establish the same environment:
 - LLAMA2:7B (use this command: ollama pull llama2:7b)
 - CUDA (A gpu > gtx 1650, if you've never used cuda follow this steps: https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&Distribution=WSL-Ubuntu&target_version=2.0&target_type=runfile_local, you can track down you gpu activitiy with following command on terminal: watch -n 1 nvidia-smi)
 
+! You can also use windows or mac environment. You just need to change the steps accordingly.
+
 # Libraries
 You can install the necessary libraries with: pip install -r requirements.txt
+
 ! I highly suggest to use virtual environment
+
 ! Pytorch is just used to check GPU availability. If you have limited space you can delete it from the requirements.txt
